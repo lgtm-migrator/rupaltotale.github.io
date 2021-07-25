@@ -6,4 +6,6 @@ git add src/Data/*
 git commit -m "Latest data being published"
 git push
 echo "===============> Deploying - its going live!"
-yarn run deploy
+npm run deploy
+yarn global add serve
+serve -s build

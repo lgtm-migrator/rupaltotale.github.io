@@ -89,9 +89,6 @@ export default class API {
         date2.push(currentYear)
       }
       if (date1[1] === date2[1]) { // the year is the same...
-
-        console.log(obj1, obj2)
-        console.log(comparisonArray.indexOf(date1[0]), comparisonArray.indexOf(date2[0]))
         return (
           comparisonArray.indexOf(date2[0]) - comparisonArray.indexOf(date1[0])
         );
