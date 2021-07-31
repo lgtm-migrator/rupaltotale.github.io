@@ -24,7 +24,7 @@ import SearchResults from "./Pages/SearchResults";
 class App extends Component {
   constructor(props) {
     super(props);
-    this.api = new API();  
+    this.api = new API();
   }
 
   state = {
@@ -59,7 +59,7 @@ class App extends Component {
       >
         {/* <NavLink to="/home"> */}
 
-        <NavLink 
+        <NavLink
           to="/home"
           className={"titleNavLink"}
           activeClassName={"titleNavLink"}
@@ -144,7 +144,7 @@ class App extends Component {
             <Education
               {...props}
               education={education}
-              heading={"Formal Computer Science Education"}
+              heading={"Computer Science Education"}
             />
           )}
         />
@@ -154,7 +154,7 @@ class App extends Component {
             <Projects
               {...props}
               projects={projects}
-              heading={"Selected Projects"}
+              heading={"Featured Projects"}
             />
           )}
         />

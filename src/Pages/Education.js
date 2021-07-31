@@ -27,10 +27,10 @@ export default class Education extends Component {
         <Heading heading={this.props.heading} type='h2'></Heading>
         {this.props.showInfo && (
           <JumboListing
-            title={'Third Year Computer Science Major'}
+            title={"Bachelor's in Computer Science"}
             subtitle={'Cal Poly SLO'}
             description={[
-              'Senior academic standing with 4.0 major GPA and 3.99 overall GPA',
+              'Graduated with a 4.0 major GPA and 3.99 overall GPA',
               "Made Dean's Honors list for all quarters attended and President's Honors list for the 2018-2019 school year",
               // 'Intend to minor in Data Science and get a Masters in Computer Science',
               'Data Science Fellow for 2020-2021 academic year',
@@ -50,7 +50,7 @@ export default class Education extends Component {
             sourceCodeUrl={'https://github.com/rupaltotale'}
             type={'ShadowBox'}
             startTime={'Sept 2018'}
-            endTime={'Present'}
+            endTime={'June 2021'}
           />
         )}
         {this.renderRelevantCoursework()}
