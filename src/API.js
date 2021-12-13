@@ -21,16 +21,16 @@ export default class API {
 
   getDataAsObjects(data) {
     const dataObjects = [];
-    var item = null;
-    for (var i = 0; i < data.length; i++) {
+    let item = null;
+    for (let i = 0; i < data.length; i++) {
       if (data[i].id !== '') {
         if (item) dataObjects.push(item);
+        const tags = typeof(data[i].tags) === 'string' ? data[i].tags.split(',') : data[i].tags;
         item = {
           id: data[i].id,
           title: data[i].title,
-          description: [data[i].description],
-          tags: data[i].tags
-            .split(',')
+          description: typeof(data[i].description) === 'string' ? [data[i].description] : data[i].description,
+          tags: tags
             .map((tag) => {
               const value = tag.toLowerCase().trim();
               const tagObj = {
@@ -44,7 +44,7 @@ export default class API {
               return tag1.value.localeCompare(tag2.value);
             }),
           gallery: data[i].gallery,
-          startTime: data[i].startTime,
+          startTime: data[i].startTime ? data[i].startTime : data[i].term,
           endTime: data[i].endTime !== '' ? data[i].endTime : null,
           projectType: data[i].projectType,
           url: data[i].url,
