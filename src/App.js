@@ -64,7 +64,7 @@ class App extends Component {
           className={"titleNavLink"}
           activeClassName={"titleNavLink"}
         >
-          Rupal Totale
+          RT
         </NavLink>
         {/* </NavLink> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
