@@ -72,22 +72,8 @@ class Home extends Component {
         </IconContext.Provider>
         <hr />
         <h6 style={{ textAlign: "center" }}>
-          Thank you for reaching out! I will get back to you in around 1 - 2
-          business days. Here is what was submitted:
+          Thank you for reaching out! I will get back to you soon :)
         </h6>
-        <br />
-        <p>
-          <b>Name: </b> {name}
-        </p>
-        <p>
-          <b>Message: </b> {message}
-        </p>
-        <p>
-          <b>Email: </b> {email}
-        </p>
-        <p>
-          <b>Rating: </b> {rating ? rating : "Not any"}
-        </p>
       </Jumbotron>
     );
   }
