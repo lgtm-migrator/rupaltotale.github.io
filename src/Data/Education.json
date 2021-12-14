@@ -1,5 +1,18 @@
 [
   {
+    "title": "CSC 480: Artificial Intelligence",
+    "description": [
+      "Learned about AI techniques including The Agent Model, Informed Search Methods, Local Search Methods, Genetic Algorithms, Constraint Propagation, Monte Carlo Tree Search",
+      "Projects included developing \"smart\" programs to solve puzzle like challenges"
+    ],
+    "tags": [
+      "Python",
+      "Git",
+      "Machine learning"
+    ],
+    "term": "Spring 2021"
+  },
+  {
     "title": "CSC 466: Knowledge Discovery from Data",
     "description": [
       "Learned about KDD methods and technologies such as Bayes Classifier, Decision Trees, Clustering, Recommender Systems, Collaborative Filtering, etc.",
@@ -9,20 +22,8 @@
       "Python",
       "React",
       "Git",
-      "Jupyter"
-    ],
-    "term": "Spring 2021"
-  },
-  {
-    "title": "CSC 480: Artificial Intelligence",
-    "description": [
-      "Learned about AI techniques including The Agent Model, Informed Search Methods, Local Search Methods, Genetic Algorithms, Constraint Propagation, Monte Carlo Tree Search",
-      "",
-      "Projects included developing \"smart\" programs to solve puzzle like challenges"
-    ],
-    "tags": [
-      "Python",
-      "Git"
+      "Jupyter",
+      "Machine learning"
     ],
     "term": "Spring 2021"
   },

@@ -15,8 +15,8 @@ class Experience extends Component {
       return (
         <JumboListing
           key={`experience-${index}`}
-          title={experience.title.split(',')[0]}
-          subtitle={experience.title.split(',')[1]}
+          title={experience.title}
+          subtitle={experience.company}
           description={experience.description}
           tags={experience.tags}
           gallery={

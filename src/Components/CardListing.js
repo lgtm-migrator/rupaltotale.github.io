@@ -5,6 +5,7 @@ import Description from "./Description";
 import Tags from "./Tags";
 import ExternalButton from "./ExternalButton";
 import TimePeriod from "./TimePeriod";
+
 // create a component
 
 class CardListing extends Component {
@@ -40,7 +41,7 @@ class CardListing extends Component {
           <Tags tags={tags}></Tags>
           {this.props.sourceCodeUrl && (
             <ExternalButton
-              text="Source Code"
+              text="Learn More"
               url={this.props.sourceCodeUrl}
               variant="dark"
             ></ExternalButton>
