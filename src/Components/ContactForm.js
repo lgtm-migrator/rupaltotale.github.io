@@ -25,7 +25,7 @@ class ContactForm extends Component {
     return (
       <Jumbotron>
         <form
-          action="https://www.form-data.com/_functions/submit/xd8igvkwkekuhax1d5g3ee"
+          action="https://api.form-data.com/f/ipkigdnxeawub9rjfzxb"
           method="post"
           onSubmit={() => {
             recaptchaRef.current.execute();
